@@ -36,6 +36,9 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    shreya = createSprite(200,200,20,20);
+    shreya.shapeColor = "red";
+
 }
 
 function draw(){
